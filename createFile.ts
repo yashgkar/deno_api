@@ -1,6 +1,6 @@
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
-const greetText = encoder.encode(`Hello World \n I'm Yash!`);
+const greetText = encoder.encode(`Hello World \nI'm Yash!`);
 
 await Deno.writeFile("greet.txt", greetText);
 
